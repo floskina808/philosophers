@@ -45,15 +45,6 @@ make re     # clean and rebuild
 - POSIX threads documentation - `pthread_create`, `pthread_mutex_lock`, `pthread_mutex_unlock`
 - 42 Network and Norminette coding standard references
 
-### AI usage
-
-AI assistance was used to:
-- organize and refine the README content
-- ensure the project documentation and instructions are clear
-- confirm compliance with the requested README structure
-
-No core project logic or implementation was rewritten by AI; only the documentation was improved.
-
 ## Project structure
 
 - `main.c` - program entry, argument validation, thread creation and joining
@@ -80,14 +71,4 @@ No core project logic or implementation was rewritten by AI; only the documentat
 - The implementation avoids deadlock by alternating fork acquisition order for even and odd philosophers.
 - Output is protected by a print mutex to avoid interleaved messages.
 - A death flag is shared safely using mutex protection.
-
-## Norminette check
-
-Run:
-
-```bash
-norminette *.c *.h
-```
-
-The README is now in English and follows the required structure for 42 projects.
 
