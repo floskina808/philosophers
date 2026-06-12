@@ -1,0 +1,28 @@
+# Executables
+philo
+philosophers
+
+# Object files
+*.o
+*.obj
+
+# Dependencies
+*.d
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp
+
+# 42 specific
+.norme.yml
